@@ -1,0 +1,335 @@
+/* ---------------------------------------------- Header---------------------------------------------*/
+
+body {
+    overflow-x: hidden
+}
+
+
+.btn {
+    border: hidden;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(122, 160, 136);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+/* ---------------------------------------------- Header---------------------------------------------*/
+
+
+/* ---------------------------------------------- Navbar---------------------------------------------*/
+
+
+.navbar {
+    background-color: rgb(190, 189, 189);
+}
+
+
+#title {
+    color: rgb(26, 168, 80);
+    justify-content: center;
+}
+
+#login a {
+
+    color: black;
+}
+
+/* ---------------------------------------------- Navbar---------------------------------------------*/
+
+/* ---------------------------------------------- Container ---------------------------------------------*/
+
+/*----------------------------------------------Carrousel--------------------------------------- */
+#CarouF {
+    background-color: rgb(0, 0, 0);
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.carti {
+
+    color: rgb(255, 255, 255);
+}
+
+
+#Imgop1 {
+    opacity: 0.6;
+    height: 90vh;
+
+}
+
+#Imgop2 {
+    opacity: 0.6;
+    height: 90vh;
+}
+
+#Imgop3 {
+    opacity: 0.5;
+    height: 90vh;
+}
+
+/*----------------------------------------------Carrousel--------------------------------------- */
+/*----------------------------------------------gallery--------------------------------------- */
+img {
+    max-width: 100%;
+}
+
+.gallery {
+    background-color: rgb(165, 165, 165);
+    padding: 58px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.gallery img {
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+}
+
+.itemWr  {
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;   
+}
+
+a:link , a:visited{
+
+    text-decoration:none;
+
+}
+
+.galleryInd figure img {
+
+    border-radius: 2%;   
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+ 
+
+}
+.galleryInd figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/*----------------------------------------------gallery--------------------------------------- */
+
+/*----------------------------------------------gallery small--------------------------------------- */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    #Imgop1 {
+        opacity: 0.6;
+        height: 91.5vh;
+        width: auto;
+    }
+
+    #Imgop2 {
+        opacity: 0.6;
+        height: 91.5vh;
+        width: auto;
+    }
+
+    #Imgop3 {
+        opacity: 0.6;
+        height: 91.5vh;
+        width: auto;
+    }
+
+
+}
+
+/*----------------------------------------------gallery small--------------------------------------- */
+
+
+/*----------------------------------------------contact--------------------------------------- */
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+  }
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contactpage {
+
+
+    background-color:rgb(200, 200, 200) ;
+    height: 82.7vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+#btnSend {
+
+    padding-top: 1%;
+    padding-left: 19%;
+
+   
+}
+
+/*----------------------------------------------contact--------------------------------------- */
+
+/*----------------------------------------------About--------------------------------------- */
+
+#About {
+
+    padding-top: 1%;
+      padding-bottom: 1%;
+       
+}
+
+#Aboutc {
+
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
+
+#scard{
+
+    background-color: rgb(200, 233, 214);
+  
+
+}
+
+#scard2{
+
+    background-color: rgb(193, 227, 233);
+  
+
+}
+/*----------------------------------------------About--------------------------------------- */
+
+/*----------------------------------------------login--------------------------------------- */
+
+#bLogin {
+    background: #c3f5cb;
+    background: linear-gradient(to right, #95ec8d, #b0e2c5);
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  }
+
+  #containerLog{
+
+    padding-top: 2%;
+   
+  }
+  
+
+
+/*----------------------------------------------login--------------------------------------- */
+
+/*----------------------------------------------Men, Women , Sport--------------------------------------- */
+
+#GalleryMenD{
+
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: rgb(233, 250, 240);
+    
+
+}
+
+#DivGalleryMan{
+    justify-content: center;
+}
+
+
+.imgGallMen a span{
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;  
+    text-align: center;
+
+    
+}
+
+.imgGallMen figure img {
+
+    border-radius: 5%; 
+    padding-left: 2%;
+    padding-right: 2%;  
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+ 
+
+}
+.imgGallMen figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+/*----------------------------------------------Men--------------------------------------- */
+
+/*----------------------------------------------footer--------------------------------------- */
+
+#footerB {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+   }
+
+/*----------------------------------------------footer--------------------------------------- */
